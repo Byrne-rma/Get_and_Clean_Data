@@ -15,9 +15,8 @@ Course Project for Getting and Cleaning Data, July 2015
 
 ##### Operations performed to clean up the data ####
 - All parentheses were removed from the variable names.  
-- The labels of the last 9 variables in the new data set had the word `Body` repeated, for example `fBodyBodyAccJerkMag-mean`,  
-and were corrected to match the names shown in the third paragraph of the original `features_info.txt` file, where they  
-are listed with only one `Body`. 
+- The labels of some of the variables in the original data sets had the word `Body` repeated, for example `fBodyBodyAccJerkMag-mean`,  
+and were corrected to match the names shown in the third paragraph of the original `features_info.txt` file, where they are listed with only one `Body`. 
 
 ##### Variable Names
 
@@ -25,9 +24,8 @@ are listed with only one `Body`.
     -------------------------- |---------------------------------------------------------------------   
      Subject 	               |   1 to 30  
      Activity                  |   WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, 
-                               |   LAYING [copied from the original file, should be lying_down or
-                               |   reclining] 
-     --------------------------|---------------------------------------------------------------------
+                               |   LAYING [copied from the original file, should be lying_down or reclining] 
+     
      The range for the other 79 variables is -1 to l, because the original variables were normalized. 
      The names are listed below in rows, in the order of the columns, with means on the  left and  
      standard deviations on the right.  
@@ -58,4 +56,3 @@ are listed with only one `Body`.
      fBodyGyroJerkMag-mean                fBodyGyroJerkMag-std
      fBodyGyroJerkMag-meanFreq  
   
-------------------------------------------------------------------------------------------------
